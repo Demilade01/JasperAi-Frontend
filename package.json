@@ -4,12 +4,20 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "lint": "next lint",
+    "tailwind:build": "tailwindcss build -o ./styles/tailwind.css",
+    "tailwind:watch": "tailwindcss build -o ./styles/tailwind.css -w"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "autoprefixer": "^10.4.16",
     "next": "latest",
+    "postcss": "^8.4.31",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.5"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
